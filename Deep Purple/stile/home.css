@@ -1,0 +1,105 @@
+body {
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+div{
+	text-align: center;
+}
+span {
+	margin-top: -90px;
+	padding-bottom: 90px; 
+	display: block; 
+}
+ol {
+	color: violet;
+	text-align: left;
+}
+a:link {
+	color: violet;
+	text-decoration: none;
+}
+a:visited {
+	color: violet;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(94, 77, 206);
+    text-decoration: underline;
+}
+.lista {
+    border: 3px solid rgb(150, 51, 200);
+    background-color: rgb(122, 0, 153);
+    padding: 5px;
+    font-size: 95%;
+	display: table;
+	height: 60px;
+	width: 200px;
+}
+.violet{
+	text-align: center;
+	color: violet;
+}
+.back {
+	line-height:80px;
+	height:100px;
+	left:-2%;
+	top:-1px;
+	width:102%;
+	background-color:black;
+	position:fixed;
+}
+.img {
+	float: left;
+	position: fixed;
+}
+.tasto {
+	background-color: black;
+	color: rgb(150, 51, 200);
+	width: 21%;
+	line-height: 60px;
+	height: 60px;
+	border: 3px solid rgb(150, 51, 200);
+	float: left;
+	display: block;
+	padding: 8px;
+}
+.tasto:hover { 
+    background-color: rgb(150, 51, 200);
+	color:black;
+}
+.linea {
+	height: 80px;
+    width: 50%;
+    margin: auto;
+    position: fixed;
+	left:+25%;
+	float: left;
+}
+.pagina {
+	color: rgb(172, 10, 229);
+	font-size:60px;
+	position:fixed;
+	left:80%;
+	text-align:center;
+}
+.canzone {
+	padding: 8px;
+	color: violet;
+}
+#right {
+	text-align: right;
+}
+#home {
+	width: 40%;
+	color: violet;
+	padding: 10px;
+	float: left;
+	font-size:25px;
+}
+#cit {
+	color: violet;
+	font-style: italic;
+	text-align:bottom;
+	text-align:right;
+}
